@@ -64,7 +64,7 @@ inputPokemon.addEventListener("keydown", (e) => {
     }
 });
 
-
+console.log("HELLO");
 
 // const pokemonTypeSymbol = (type) => {
 //     if (type === "bug") {
