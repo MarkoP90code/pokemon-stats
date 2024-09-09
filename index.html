@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Search App</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Orbitron:wght@400..900&family=Pacifico&display=swap" rel="stylesheet">
+    <script defer src="script.js"></script>
+</head>
+
+
+<body>
+
+    <div id="container-top">
+        <h1>Pokédex</h1>
+        <label for="search-input">
+            <h2 id="input-name">Pokémon details:</span></h2>
+            <input id="search-input" placeholder="Enter pokémon name..." required>
+            <button id="search-button">I choose you!</button>
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/25.png" id="sprite">
+        </label>
+    </div>
+    
+    <div id="container-bottom">
+        <div id="pokemon-name-div">
+            <p id="pokemon-name" class="pokemon-characteristics"></p>
+        </div>
+
+        <div id="id-wight-height">
+            <div id="pokemon-id-div" class="border">Id:
+                <p id="pokemon-id" class="pokemon-characteristics"></p>
+            </div>
+            <div id="pokemon-weight-div" class="border">Wright:
+                <p id="weight" class="pokemon-characteristics"></p>
+            </div>
+            <div id="pokemon-height-div" class="border">Height:
+                <p id="height" class="pokemon-characteristics"></p>
+            </div>
+        </div>
+
+        <p id="pokemon-type-label"><i><strong>Pokémon Type</strong></i></p>
+        <p id="types" class="pokemon-characteristics"></p>
+
+        <div id="hp-a-d">
+            <div id="hp-div" class="border">Hp:
+                <p id="hp" class="pokemon-characteristics"></p>
+            </div>
+            <div id="attack-div" class="border">Attack:
+                <p id="attack" class="pokemon-characteristics"></p>
+            </div>
+            <div id="defense-div" class="border">Defense:
+                <p id="defense" class="pokemon-characteristics"></p>
+            </div>  
+        </div>
+
+        <div id="sa-sd">
+            <div id="sa-div" class="border">SPECIAL-ATTACK
+                <p id="special-attack" class="pokemon-characteristics"></p>
+            </div>
+            <div id="sd-div" class="border">SPECIAL-DEFENSE
+                <p id="special-defense" class="pokemon-characteristics"></p>
+            </div>
+        </div>
+
+        <div id="speed-div">
+            <spam>Speed:</spam>
+            <spam id="speed" class="pokemon-characteristics"></spam>
+        </div>
+        
+        
+    </div>
+    <!--script sam prebacio gore i dodao defer-->
+</body>

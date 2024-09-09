@@ -1,0 +1,180 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    text-align: center;
+    width: 400px;
+    margin: 30px auto;
+    background-image: url("https://img2.cgtrader.com/items/3431541/761b520fb5/large/realistic-pokeball-3d-model-blend.jpg");
+    background-attachment: fixed;       /*background-attachment i background-size su mi zajedno dali otprilike sta treba. Pojedinacno ne valjda bas.*/
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+#container-top, #container-bottom {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+#container-top {
+    margin-top: 40%;
+}
+
+#container-bottom {
+    visibility: hidden;
+}
+
+label {
+    position: relative;
+}
+
+input {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    height: 25px;
+    border-width: 1px;
+    width: 50%;
+}
+
+::placeholder {
+    opacity: 0.7;   
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(rgb(49, 48, 48), rgb(24, 22, 22));
+    color: white;
+    display: block;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color:  rgb(0, 0, 0);
+    margin: 5px auto;
+    font-size: 1rem;
+    padding: 2px 0;
+    width: 50%;
+    font-weight: bold;
+}
+
+button:hover {
+    background-image: linear-gradient(rgba(49, 48, 48, 0.8), rgba(24, 22, 22, 0.8));
+    
+}
+
+button:active {
+    background-image: linear-gradient(rgba(49, 48, 48, 0.9), rgba(24, 22, 22, 0.9));
+}
+
+#pokemon-name {
+    background-image: linear-gradient(rgb(255, 255, 0), rgb(184, 74, 0));
+    padding: 5px 0;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: "Orbitron", sans-serif;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-size: 1.5rem;
+}
+
+#id-wight-height {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+#pokemon-id-div, #pokemon-weight-div, #pokemon-height-div {
+    flex: 1;
+    background-color: white;
+}
+
+#types {
+    background-color: rgb(46, 44, 44);
+    color: white;
+    padding: 5px 0;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    border-radius: 0px;
+    font-family: "Orbitron", sans-serif;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#pok-type-dis {
+    flex: 1;
+}
+
+#hp-a-d {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+#hp-a-d div {
+    flex: 1;
+    background-color: white;
+}
+
+#sa-sd {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+#sa-sd div {
+    flex: 1;
+    background-image: linear-gradient( rgb(210, 84, 0), rgb(255, 255, 0));
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+
+.border {
+    border: 1px solid black;
+    
+    margin: 10px 0;
+}
+
+#sprite {
+    position: absolute;
+    top: -10px;
+    left: 95px;
+}
+
+
+
+#speed-div {
+    background-color: rgb(99, 255, 99);
+    border: 1px solid black;
+    background-color: rgb(46, 44, 44);
+    color: white;
+    padding: 5px 0;
+    border: 2px solid black;
+    border-radius: 0px;
+    font-family: "Orbitron", sans-serif;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-size: 1rem;
+
+}
+
+#pokemon-type-label {
+    font-family: "Pacifico", cursive;
+    color: yellow;
+}

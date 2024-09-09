@@ -1,0 +1,14 @@
+{
+  "name": "pokemonsearch",
+  "version": "1.0.0",
+  "description": "finds pokemon stats for you",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Marko P",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
