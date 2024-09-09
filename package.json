@@ -9,6 +9,7 @@
   "author": "Marko P",
   "license": "ISC",
   "devDependencies": {
+    "@parcel/watcher": "^2.4.1",
     "parcel": "^2.12.0"
   }
 }
